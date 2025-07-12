@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harshad | Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .fade-up {
+      animation: fadeUp 1s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="min-h-screen text-white font-sans flex flex-col items-center justify-start pt-28 relative">
+
+<!-- Navbar -->
+<nav class="fixed top-4 left-4 z-50 px-6 py-2 glass rounded-2xl">
+  <h1 class="text-2xl font-bold text-white tracking-wide">Harshad Soyaliya</h1>
+</nav>
+
+<!-- Hero Section -->
+<section class="w-full flex flex-col lg:flex-row items-center justify-center px-6 fade-up py-16">
+  
+
+
+  <!-- Center: Glass CTA -->
+  <div class="glass flex-1 p-10 rounded-3xl shadow-xl text-center transition hover:scale-105 duration-500 mx-6">
+    <h2 class="text-4xl md:text-5xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-400 to-white">
+      Elevate Your Style
+    </h2>
+    <p class="text-gray-300 mb-6 text-lg">
+      A perfect blend of elegance, fashion, and minimalism — inspired by iPhone UI.
+    </p>
+    <button class="px-6 py-3 rounded-full bg-white/10 text-white border border-white/20 hover:bg-white/20 transition backdrop-blur">
+      Get Started
+    </button>
+  </div>
+
+
+
+</section>
+
+
+<!-- Content Section -->
+<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-6 max-w-7xl mb-20 fade-up">
+
+  <!-- Personal Info -->
+  <div class="glass p-6 rounded-2xl shadow-md hover:scale-105 transition duration-500">
+    <h3 class="text-2xl font-semibold mb-2">Personal Info</h3>
+    <p class="text-gray-300">Name: Harshad Soyaliya<br>Location: Rajkot<br>Age: 22</p>
+  </div>
+
+  <!-- Contact Info -->
+  <div class="glass p-6 rounded-2xl shadow-md hover:scale-105 transition duration-500">
+    <h3 class="text-2xl font-semibold mb-2">Contact Info</h3>
+    <p class="text-gray-300">Email: harshad@example.com<br>Phone: +91-9876543210</p>
+  </div>
+
+  <!-- Certificates -->
+  <div class="glass p-6 rounded-2xl shadow-md hover:scale-105 transition duration-500">
+    <h3 class="text-2xl font-semibold mb-2">My Certificates</h3>
+    <p class="text-gray-300">• Web Dev Internship<br>• Django Masterclass<br>• Responsive Design</p>
+  </div>
+
+  <!-- Projects & Work -->
+  <div class="glass p-6 rounded-2xl shadow-md hover:scale-105 transition duration-500">
+    <h3 class="text-2xl font-semibold mb-2">My Projects & Work</h3>
+    <p class="text-gray-300">• StyleSurfer Fashion Rental<br>• Personal Portfolio<br>• Embroidery Customizer</p>
+  </div>
+
+  <!-- Skills -->
+  <div class="glass p-6 rounded-2xl shadow-md hover:scale-105 transition duration-500">
+    <h3 class="text-2xl font-semibold mb-2">My Skills</h3>
+    <p class="text-gray-300">HTML, CSS, Tailwind, JS, Django, React, Python, MySQL, Git</p>
+  </div>
+
+  <!-- Hobbies -->
+  <div class="glass p-6 rounded-2xl shadow-md hover:scale-105 transition duration-500">
+    <h3 class="text-2xl font-semibold mb-2">My Hobbies</h3>
+    <p class="text-gray-300">Coding, UI Designing, Gaming, Exploring Tech, Reading</p>
+  </div>
+
+  <!-- About Me -->
+  <div class="glass p-6 rounded-2xl shadow-md col-span-full hover:scale-105 transition duration-500">
+    <h3 class="text-2xl font-semibold mb-2">About Me</h3>
+    <p class="text-gray-300">I am a passionate developer with a focus on creating beautiful and functional digital experiences. I love combining creativity with technical skill to build amazing things.</p>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="text-gray-400 text-sm mb-6 fade-up">
+  &copy; 2025 Harshad. All rights reserved.
+</footer>
+
+</body>
+</html>
