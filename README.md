@@ -51,19 +51,7 @@ Hi, I'm **Harshad Soyaliya**, a passionate Full-Stack AI Engineer and Computer E
 | Resume Builder AI    | Automated resume generator with AI suggestions   | Python, Django, JS          |
 | More on Portfolio... | Explore all projects with code and live demos    | See website                 |
 
----
 
-## 🎨 Color Palette & Theme
-
-| Purpose     | Color Name     | Hex      |
-|-------------|---------------|----------|
-| Primary     | Tailwind Blue | #2563eb  |
-| Accent      | Cyan          | #06b6d4  |
-| Background  | Slate-50      | #f8fafc  |
-| Text        | Slate-900     | #0f172a  |
-| Secondary   | Slate-500     | #64748b  |
-
-- **Theme:** Modern, clean, and technology-focused with blue accents for trust and innovation.
 
 ---
 
